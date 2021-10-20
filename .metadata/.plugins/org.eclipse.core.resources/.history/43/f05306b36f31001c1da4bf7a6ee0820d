@@ -1,0 +1,17 @@
+package hello.servlet.basic.request;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * 
+ * @author YunGyeongKim
+ *
+ */
+
+@WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
+public class RequestParamServlet extends HttpServlet {
+	
+	@Override
+
+}

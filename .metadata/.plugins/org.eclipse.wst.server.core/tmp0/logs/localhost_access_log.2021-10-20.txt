@@ -30,3 +30,11 @@
 0:0:0:0:0:0:0:1 - - [20/Oct/2021:14:57:40 +0900] "GET /servlet/request-header HTTP/1.1" 200 5
 127.0.0.1 - - [20/Oct/2021:14:59:32 +0900] "GET / HTTP/1.1" 404 807
 0:0:0:0:0:0:0:1 - - [20/Oct/2021:15:00:18 +0900] "GET /servlet/request-header HTTP/1.1" 200 5
+127.0.0.1 - - [20/Oct/2021:15:36:19 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:15:36:58 +0900] "GET /servlet/request-param HTTP/1.1" 200 5
+127.0.0.1 - - [20/Oct/2021:15:40:08 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:15:40:29 +0900] "GET /servlet/request-param?username=hello&age=20 HTTP/1.1" 500 3815
+127.0.0.1 - - [20/Oct/2021:15:41:02 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:15:42:37 +0900] "GET /servlet/request-param?username=hello&age=20 HTTP/1.1" 500 3815
+127.0.0.1 - - [20/Oct/2021:15:43:21 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:15:43:46 +0900] "GET /servlet/request-param?username=hello&age=20 HTTP/1.1" 200 12
